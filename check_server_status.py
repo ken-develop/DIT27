@@ -65,4 +65,4 @@ print(f"Using IP address: {server_ip} and port: {server_port}")
 try:
     check_server_status(server_ip, server_port)
 except Exception as e:
-    print(f"An unexpected error occurred!: {e}")
+    print(f"An unexpected error occurred: {e}")
