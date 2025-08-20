@@ -1,14 +1,9 @@
-import java.util.Scanner;
+# รับค่าจำนวนเต็มจากผู้ใช้
+num1 = int(input("กรุณากรอกจำนวนที่ 1: "))
+num2 = int(input("กรุณากรอกจำนวนที่ 2: "))
 
-public class SumTwoNumbers {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+# ทำการบวกจำนวน
+result = num1 + num2
 
-        System.out.print("กรอกจำนวนเต็ม 2 ค่า: ");
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-
-        int sum = a + b;
-        System.out.println("ผลบวก = " + sum);
-    }
-}
+# แสดงผลลัพธ์
+print(f"ผลบวกของ {num1} และ {num2} คือ {result}")
